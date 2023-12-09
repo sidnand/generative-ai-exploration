@@ -2,7 +2,7 @@ body {
     font-family: 'Helvetica', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #eee;
     color: #333;
 }
 
@@ -16,18 +16,13 @@ body, html {
     margin: 0 auto;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
 #images {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     justify-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 
     @media (max-width: 768px) {
         grid-template-columns: repeat(2, 1fr);
